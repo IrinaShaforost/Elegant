@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1024px) {
+    .container, .header_container{
+        padding: 0 15px;
+    }
+    .about_uself, .amazing_work, .like_to_write{
+        margin-bottom: 130px;
+    }
+    .amazing_people{
+        margin-bottom: 100px;
+    }
+    .galary img{
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .galary img{
+        height: 300px;
+        width: 50%;
+    }
+    .about_uself, .amazing_work, .like_to_write{
+        margin-bottom: 100px;
+    }
+    .amazing_people{
+        margin-bottom: 70px;
+    }
+    .work_with_us, .background-image{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 420px) {
+    .text .scroll_down{
+        display: inline-block;
+    }
+    .background-image{
+        background-image: url("../images/background_phone.png");
+    }
+   header .header_container{
+        background-color: #656d71;
+        padding: 0 0 0 15px;
+
+    }
+    .spans{
+        background-color: white;
+    }
+    .header_menu{
+        background-color: #273137;
+        padding: 20px 16px 23px;
+    }
+    .text h1{
+        padding: 0 20px;
+        font-size: 54px;
+        line-height: 70px;
+    }
+    .container a {
+        padding: 16px 30px;
+    }
+    .about_uself{
+        margin-bottom: 130px;
+    }
+    .galary img{
+        width: 100%;
+    }
+    .amazing_people .portfolio{
+       width: 100%;
+    }
+    .change_your_space{
+        flex-direction: column;
+    }
+    footer .container{
+        flex-direction: column;
+        text-align: left;
+    }
+    footer .discription{
+        font-size: 15px;
+    }
+    .work_with_us .email a.email_deskrop{
+        display: none;
+    }
+    .work_with_us .email a.email_phone{
+        display: block;
+    }
+    a.email_phone{
+        padding: 0;
+    }
+    .location, .phone{
+        margin-bottom: 75px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    footer .discription{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 360px) {
+}
+
+
+
+
+
+
+
+
