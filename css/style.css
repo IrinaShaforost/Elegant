@@ -267,7 +267,7 @@ h3{
 .amazing_people h3{
   margin-bottom: 45px;
 }
-.amazing_people p{
+.amazing_people .discription{
   margin-bottom: 50px;
 }
 .amazing_people .people{
@@ -467,7 +467,10 @@ footer .discription{
   z-index: -2;
   border-radius: 50%;
 }
-
+.your_space_content .btn::after, .your_space_content .btn::before{
+  height: 0;
+  width: 0;
+}
 .btn::before{
   background-color: #d4af37;
   top: -0.75rem;
@@ -547,3 +550,7 @@ footer .discription{
 
 }
 /*/novigation*/
+.your_space_content a{
+  position: relative;
+  z-index: 2;
+}
