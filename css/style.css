@@ -14,6 +14,16 @@
   background-position: center;
   margin-bottom: 83px;
 }
+.background-image-about{
+  background: url(../images/about-background.jpg) no-repeat #ffffff;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 165px;
+}
+.click{
+  text-align: center;
+  padding: 555px 0 55px;
+}
 header .header_container{
   display: flex;
   justify-content: space-between;
@@ -54,7 +64,7 @@ header .header_container{
 .spans {
   width: 100%;
   height: 10%;
-  background-color: #021725;
+  background-color: white;
   border-radius: 500px;
   opacity: 1;
   transition-property: background-color, transform, opacity;
@@ -538,10 +548,9 @@ footer .discription{
 /*NOVIGATION*/
 .scroll_down{
   color: white;
-  margin-top: 50px;
-  height: 55px;
-  width: 55px;
-  line-height: 55px;
+  height: 31px;
+  width: 31px;
+  line-height: 31px;
   text-decoration: none;
   border-radius: 50%;
   border: 1px solid white;
@@ -553,4 +562,75 @@ footer .discription{
 .your_space_content a{
   position: relative;
   z-index: 2;
+}
+/*@keyframes logo {*/
+/*  0%{*/
+/*    position: absolute;*/
+/*    left: -300px;*/
+/*    top: 0;*/
+/*  }*/
+/*  100%{*/
+/*left: 0;*/
+/*    top: 0;*/
+/*  }*/
+/*}*/
+/*.logo{*/
+/*  animation: logo 3s;*/
+/*  position: relative;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+/*PAGE ABOUT*/
+.about_text{
+  max-width: 764px;
+  margin: auto;
+}
+.about_text .discription{
+  letter-spacing: 0.9px;
+  line-height: 30px;
+}
+.about-information{
+  margin-bottom: 155px;
+}
+/**/
+/*Section about-services*/
+.about-services{
+  display: flex;
+  flex-grow: 1;
+}
+.service-img1, .services_discription{
+  width: 50%;
+}
+.service-img{
+  width: 100%;
+}
+.about-services .services_discription h3{
+  margin-bottom: 91px;
+}
+.services_discription-info{
+  display: flex;
+  justify-content: space-between;
+  max-width: 510px;
+}
+.service_text{
+  max-width: 229px;
+}
+.services_discription{
+  padding-left: 57px;
+  background-color: #f9f9f9;
+}
+.service_list li{
+  list-style: none;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.9px;
+}
+.service_list li:before{
+  content: "-";
+  display: inline-block;
+  font-family: "Myriad Pro";
+  font-weight: 400;
+ margin-right: 11px;
 }

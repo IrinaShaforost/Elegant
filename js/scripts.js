@@ -100,6 +100,12 @@ hamburger.addEventListener("click", function(e) {
 new WOW().init();
 $("#click").click(function() { // ID откуда кливаем
   $('html, body').animate({
-    scrollTop: $(".amazing_people").offset().top  // класс объекта к которому приезжаем
+    scrollTop: $(".amazing_people").offset().top  // класс объекта к которому приезжаем;
+  }, 1000); // Скорость прокрутки
+});
+new WOW().init();
+$("#click1").click(function() { // ID откуда кливаем
+  $('html, body').animate({
+    scrollTop: $(".about-services").offset().top  // класс объекта к которому приезжаем;
   }, 1000); // Скорость прокрутки
 });
