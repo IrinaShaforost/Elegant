@@ -109,3 +109,9 @@ $("#click1").click(function() { // ID откуда кливаем
     scrollTop: $(".about-services").offset().top  // класс объекта к которому приезжаем;
   }, 1000); // Скорость прокрутки
 });
+new WOW().init();
+$("#click2").click(function() { // ID откуда кливаем
+  $('html, body').animate({
+    scrollTop: $(".nora_galary").offset().top  // класс объекта к которому приезжаем;
+  }, 1000); // Скорость прокрутки
+});
