@@ -740,6 +740,10 @@ max-width: 300px;
 .contact_us{
   margin-bottom: 108px;
 }
+.contact_us a{
+  padding: 23px 58px;
+  border: solid 1px #000000;
+}
 /**/
 /*PAGE WORK*/
 .amazing_work.page-amazing_work{
