@@ -297,8 +297,72 @@
     .project-link{
         display: none;
     }
-
 }
+/**/
+/*BLOG*/
+@media only screen and (max-width: 1024px) {
+    .your_blog {
+        max-width: 560px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+   .blog-content-block{
+       flex-direction: column;
+   }
+    .your_blog {
+        max-width: 100%;
+    }
+    .blog-content {
+        padding: 40px 20px 60px 20px;
+    }
+    .your_blog .discription {
+        font-size: 21px;
+    }
+    .blog-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .resent_post, .categories{
+        width: 40%;
+    }
+    .blog-galary{
+        width: 100%;
+    }
+    .blog-info h5 {
+        font-size: 30px;
+    }
+    .blog-galary h5:after{
+        width: 100%;
+    }
+    .blog-info ul li a {
+        font-size: 25px;
+    }
+    }
+@media only screen and (max-width: 420px) {
+    .background-image-blog{
+        background-image: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .blog-content{
+        background-color: white;
+    }
+    .your_blog{
+        padding: 15px 15px 50px 15px;
+    }
+    .blog-info{
+        background-color: #f9f9f9;
+        text-align: left;
+        padding: 0 15px;
+    }
+    .resent_post, .categories{
+        width: 100%;
+    }
+}
+
 
 
 
